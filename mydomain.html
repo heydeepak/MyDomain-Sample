@@ -51,12 +51,20 @@ var ns6 = document.getElementById&&!document.all; //detect netscape 6
 
 // place your images, text, etc in the array elements here
 var items = new Array();
+<!--
     items[0]="<a href='http://www.homedepot.com' ><img alt='image0 (9K)' src=' ./Brand1.jpg' height='300' width='300' border='0' /></a>"; //a linked image
     items[1]="<a href='http://www.homedepot.com'><img alt='image1 (9K)' src='./Brand2.jpg' height='300' width='300' border='0' /></a>"; //a linked image
     items[2]="<a href='http://www.homedepot.com><img alt='image2 (9K)' src='./Brand3.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-   items[3]="<a href='http://www.homedepot.com'><img alt='image3 (9K)' src='./Brand4.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[4]="<a href='http://www.homedepot.com'><img alt='image4 (9K)' src='.Brand5.jpg' height='300' width='300' border='0' /></a>"; //a linked image
-    items[5]="<a href='http://www.homedepot.com'><img alt='image5 (18K)' src='.Brand6.jpg' height='300' width='300' border='0' /></a>"; //a linked image
+    items[3]="<a href='http://www.homedepot.com'><img alt='image3 (9K)' src='./Brand4.jpg' height='300' width='300' border='0' /></a>"; //a linked image
+    items[4]="<a href='http://www.homedepot.com'><img alt='image4 (9K)' src='./Brand5.jpg' height='300' width='300' border='0' /></a>"; //a linked image
+    items[5]="<a href='http://www.homedepot.com'><img alt='image5 (18K)' src='./Brand6.jpg' height='300' width='300' border='0' /></a>"; //a linked image
+-->
+    items[0]="<a href='http://www.homedepot.com' ><img alt='image0 (9K)' src=' ./Brand19.jpg' /></a>"; //a linked image
+    items[1]="<a href='http://www.homedepot.com'><img alt='image1 (9K)' src='./Brand20.jpg' /></a>"; //a linked image
+    items[2]="<a href='http://www.homedepot.com><img alt='image2 (9K)' src='./Brand21.jpg' /></a>"; //a linked image
+   items[3]="<a href='http://www.homedepot.com'><img alt='image3 (9K)' src='./Brand22.jpg' /></a>"; //a linked image
+    items[4]="<a href='http://www.homedepot.com'><img alt='image4 (9K)' src='./Brand23.jpg' /></a>"; //a linked image
+    items[5]="<a href='http://www.homedepot.com'><img alt='image5 (18K)' src='./Brand18.jpg' /></a>"; //a linked image
 function rotater() {
     document.getElementById("placeholder").innerHTML = items[current];
     current = (current==items.length-1) ? 0 : current + 1;
